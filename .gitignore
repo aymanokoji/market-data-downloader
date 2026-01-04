@@ -1,0 +1,37 @@
+# --- Python Standards ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Distribution / Install ---
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Virtual Env (si tu en as un localement) ---
+venv/
+env/
+.venv/
+
+# --- IDE Settings (VS Code, etc.) ---
+.vscode/
+.idea/
+
+# --- PROJET SPÉCIFIQUE (Le plus important) ---
+
+# 1. Sécurité : Ne JAMAIS commiter la clé API
+.env
+
+# 2. Données : On ne veut pas stocker les CSV sur Git
+DATABASE/
+# (Si tu veux garder la structure des dossiers mais pas les fichiers, dis-le moi,
+# mais pour l'instant ignorer tout le dossier DATABASE est plus sûr).
+
+# 3. Logs : Pas besoin de l'historique d'exécution
+logs/
+*.log
+
+# 4. Fichiers temporaires ou listes locales
+*.txt
