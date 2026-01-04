@@ -2,7 +2,7 @@
 
 Tool for downloading historical market data with a focus on **data integrity** and **reproducibility**.
 
-## Data Philosophy
+## Data Rigor 
 
 This project follows a **single-source principle** to ensure data consistency:
 
@@ -10,7 +10,7 @@ This project follows a **single-source principle** to ensure data consistency:
 - **No Fallbacks**: Failed downloads are logged, not silently replaced
 - **Auditability**: All operations are logged with timestamps
 
-### Why Single Source?
+### Single Source Data
 
 In quantitative finance, mixing data sources introduces:
 - Price discrepancies between providers
